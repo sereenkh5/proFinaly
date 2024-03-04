@@ -1,0 +1,73 @@
+
+.hero{
+display: flex;
+height: 100vh;
+background-image: url('../components/imges/ph1.png');
+background-size: cover;
+background-attachment: fixed;
+box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+
+}
+
+.content{
+
+    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.content h1{
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.content p{
+    font-size: 22px;
+    margin: 15px 0;
+    max-width: 550px;
+    letter-spacing: 2px;
+}
+
+.content a{
+    color: inherit;
+    text-decoration: none;
+    background-color: purple;
+    padding: 12px 24px;
+    font-size: 22px;
+
+    border-radius: 10px;
+}
+.color{
+    background: linear-gradient(45deg,#d2001a,#7462ff);
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 24px;
+}
+#home{
+    height: fit-content;
+    width: 400px;
+    background:linear-gradient(45deg,#d2009e,#62d8ff);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px  rgba(0, 0, 0,0.3) ;
+   
+    
+}
+#home img{
+    width: 100px;
+
+
+}
+
